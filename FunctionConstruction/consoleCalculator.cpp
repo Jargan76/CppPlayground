@@ -2,7 +2,6 @@
 //
 
 #include "stdafx.h"
-#include <iostream>
 #include "calculateResults.h"
 #include "getAValue.h"
 #include "getOperator.h"
