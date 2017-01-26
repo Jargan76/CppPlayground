@@ -15,14 +15,14 @@ int main()
 	// Get opertator from user
 	int op =  getOperator();
 
-	// Get second number
+	// Get second number user
 	int input2 = getAValue(); 
 
 	// Do the math
 	int results = calculateResults(input1, op, input2);
 
-	// Display results
-	printToConsole(results);
+	// Display results to the user
+	printToConsole(input1, op, input2, results);
 
     return 0;
 }
